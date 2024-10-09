@@ -3,7 +3,12 @@ def Fibnocci_seq(n):
     for i in range(2, n):
         fib.append(fib[i - 1] + fib[i - 2]) 
          # Use append to add the next Fibonacci number
-    print(fib)
+    return fib
 
-Fibnocci_seq(10)
-
+seq = Fibnocci_seq(20)
+for i in range(10 , 20):
+    print(seq[i])
+    # Print numbers in the range 11 to 20 only
+for num in (seq):
+    if num >= 11 and num <= 20:
+        print(num)

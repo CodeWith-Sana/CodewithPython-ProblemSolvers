@@ -1,5 +1,5 @@
 def armStrong(n):
-    count =0 
+    count = 0 
     d_list = []
     value = 0
     for digit in str(n):
@@ -10,8 +10,8 @@ def armStrong(n):
     if value == n:
         print(f"{n} is an Armstrong number.")
     else:
-        print(f"{n} is not an Armstrong number.")
+        print(f"{n} is not an Armstrong number. {value}")
 
 
-armStrong(9474)
+armStrong(20)
         

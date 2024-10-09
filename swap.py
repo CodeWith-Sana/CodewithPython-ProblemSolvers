@@ -13,7 +13,7 @@ print("after swap variables" , var1 , var2)
 a  = 12
 b = 15
 print("before swap variables" , a , b)
-a=a+b    
-b=a-b    
-a=a-b  
-print("after swap variables" , a , b)
+# a=a+b    
+# b=a-b    
+# a=a-b  
+a,b = b,a

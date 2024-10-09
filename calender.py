@@ -1,8 +1,8 @@
 
 # Program to display calendar of the given month and year
 import calendar
-yy = 2024  # year
-mm = 10   # month
+yy = 1990  # year
+mm = 2   # month
 
 # display the calendar
 print(calendar.month(yy, mm))
@@ -16,7 +16,7 @@ def  leapYear(year):
         return True
     else:
         return False
-value  =  2002
+value  =  1990
 if(leapYear(value)==True):
     print("the year is leaf year")
 else: 
