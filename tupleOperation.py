@@ -6,3 +6,10 @@ for x in num_tuple:
     prod *= x
 print(f"The Sum of tuple numbers is :{sum}")
 print(f"The Product of tuple numbers is :{prod}")
+name  = ("sana")
+#not tuple , v]becon one item  class str return
+print(type(name))
+name  = ("sana" ,)
+# retunr class tuple b/c of comman after an elemnt 
+print(type(name))
+

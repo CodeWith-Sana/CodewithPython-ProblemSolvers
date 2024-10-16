@@ -55,6 +55,10 @@ Characters : h e  l  l  o
              0 1  2  3  4
             -5 -4 -3 -2 -1 
 
+comments : 
+# single line commment
+'''multi line comment'''
+Here, 'single iline comment' is a string literal, not a comment. It is valid Python syntax but serves a different purpose. The string would be ignored if it is not assigned to a variable, but it is not considered a comment.
 ## Getting Started
 
 ### Requirements
