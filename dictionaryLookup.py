@@ -1,9 +1,10 @@
 student_grades = {
-    "Sana": 'A',
-    "Malaika": 'B',
-    "Usra": 'D'
+    "Sana": 'A' ,
+    "Malaika": 'B' ,
+    "Usra": 'D' 
 }
-search_value = input("Enter the grade you want to look up: ")
+s_v = input("Enter the grade you want to look up: ")
+search_value =  s_v.capitalize()
 found_key = None
 for key, value in student_grades.items():
     if value == search_value:

@@ -23,5 +23,5 @@ print(student_record.keys())
 student_record["age"] = 20
 print(student_record.values())
 print(student_record)
-
+print(type(fruits))    #return class : tuple
 
