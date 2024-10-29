@@ -59,6 +59,9 @@ comments :
 # single line commment
 '''multi line comment'''
 Here, 'single iline comment' is a string literal, not a comment. It is valid Python syntax but serves a different purpose. The string would be ignored if it is not assigned to a variable, but it is not considered a comment.
+## Object Oriented Programming in Python
+-separate directory for OOPs using python
+I have created separate sub-directory in this python course, in order to have a clear understanding of how to use object orientd concept in python , exploring all of its concepts like access specifiers , inheritance and polymorphism with differnt real world scenerios .
 ## Getting Started
 
 ### Requirements

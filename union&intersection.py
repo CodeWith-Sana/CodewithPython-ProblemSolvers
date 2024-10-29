@@ -1,5 +1,5 @@
 set1 = set((12, 3, 5 , 100 , 101 , 11 , 12))
-set2 = set((12, 5, 3, 11 , 7 ,101))
+set2 = set((12, 5, 3 , 2 ,1))
 #union of two sets
 u_set = set()
 for x in (set1):

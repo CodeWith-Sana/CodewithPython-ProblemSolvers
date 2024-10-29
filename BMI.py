@@ -11,7 +11,7 @@ elif ((result<24.9) or (result == 18.5)):
     print("you are normal" , result)
 elif(result<=25 or result<29.9):
     print("overweight" , result)
-elif(result>=30):
+elif(result>=29.9):
     print(f"obese, {result}!")
 
 

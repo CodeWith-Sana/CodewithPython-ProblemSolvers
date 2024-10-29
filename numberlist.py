@@ -11,5 +11,5 @@ for i in number:
 print(f"SUM: {sum}")
 print(f"largest number is :{x} and smallest number is {y}")
 #to sort list
-number.sort
+number.sort()
 print(f"sorted list is :{number}")

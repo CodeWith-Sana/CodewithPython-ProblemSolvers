@@ -6,8 +6,9 @@ def Fibnocci_seq(n):
     return fib
 
 seq = Fibnocci_seq(20)
-for i in range(10 , 20):
-    print(seq[i])
+print(seq)
+for i in range(11 , 20):
+    pass
     # Print numbers in the range 11 to 20 only
 for num in (seq):
     if num >= 11 and num <= 20:

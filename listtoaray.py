@@ -4,8 +4,7 @@ def list_array(li):
         return True
     else:
         f_type =  type(li[0])
-        for i in li:
-            new_list = []  # Create a new list to store elements of the same type
+        new_list = []  # Create a new list to store elements of the same type
         for i in li:
             if type(i) == f_type:
                 new_list.append(i) 
