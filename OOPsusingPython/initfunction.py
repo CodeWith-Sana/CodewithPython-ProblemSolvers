@@ -32,12 +32,18 @@ obj = Demo("Alice")
 # Check for attributes
 print(hasattr(obj, 'name'))           # True (instance attribute)
 print(hasattr(obj, 'class_attribute')) # True (class attribute)
-
+print(getattr(obj , 'name' ))
+setattr(obj , 'name' , "Sara")
+print(getattr(obj , 'name' ))
 # Now delete the instance attribute
 delattr(obj, 'name')
 
 # Check again
 print(hasattr(obj, 'name'))           # False (instance attribute deleted)
 print(hasattr(obj, 'class_attribute')) # True (class attribute still exists)
+obj.class_attribute = "sana"
+delattr(obj , 'class_attribute')
+print(hasattr(obj , 'class_attribute'))
+# print(Demo.name)   #erroo type object 'Demo' has no attribute 'name'
 
 
