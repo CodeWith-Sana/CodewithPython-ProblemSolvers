@@ -1,0 +1,16 @@
+                      BISE SWAT BAORD                                                                                                      
+                 ABC SCHool               
+                 Passing year: 2016               
+____________________________________________________________________________________________________
+Roll No 216102
+Student Name Diana
+Father Name John 
+----------------------------------------------------------------------------------------------------
+    Subject            Total Marks     Obtained Marks
+    English             |     100 |   87                  |
+    Urdu                |     100 |   86                  |
+    Maths               |     100 |   84                  |
+    Islamyat            |     100 |   89                  |
+    Pakstudy            |     100 |   81                  |
+    Science             |     100 |   90                  |
+    Total Marks:    600 |    Obtained Marks:  517 |    Grade: A

@@ -1,7 +1,4 @@
 class Book:
-    title = ""
-    _authName = ""
-    __ISBN = None
     def __init__(self , title ,authName , ISBN):
         self.title = title
         self._authName = authName
@@ -16,6 +13,7 @@ class Book:
         print(f"the new ISBN number is :{self.__ISBN}")
 b1 =  Book("Evolution Of Man" , "Darwin" , 123456789)
 b1.get_BOOKdata()
-print(b1.get_ISBN(123456))
-#will throw an erro b/c aof private attribute
-# print(b1.__ISBN)
+print(b1.get_ISBN(123456)) #will print the protected attribute , but not  good way
+print(b1._authName)  #will throw an erro b/c aof private attribute
+print(b1._Book__ISBN)  #name mangling will not throw and error
+
